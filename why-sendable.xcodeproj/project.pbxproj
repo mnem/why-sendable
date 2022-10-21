@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB61CCC12903227A00E00721 /* why_sendableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB61CCC02903227A00E00721 /* why_sendableApp.swift */; };
+		BB61CCC32903227A00E00721 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB61CCC22903227A00E00721 /* ContentView.swift */; };
+		BB61CCC52903228000E00721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB61CCC42903228000E00721 /* Assets.xcassets */; };
+		BB61CCC82903228000E00721 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB61CCC72903228000E00721 /* Preview Assets.xcassets */; };
+		BB61CCCF2903244100E00721 /* Votes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB61CCCE2903244100E00721 /* Votes.swift */; };
+		BB61CCD1290324F700E00721 /* IdeaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB61CCD0290324F700E00721 /* IdeaList.swift */; };
+		BB61CCD42903348100E00721 /* IdeaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB61CCD0290324F700E00721 /* IdeaList.swift */; };
+		BB61CCD52903348100E00721 /* Votes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB61CCCE2903244100E00721 /* Votes.swift */; };
+		BB61CCD62903348100E00721 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB61CCC22903227A00E00721 /* ContentView.swift */; };
+		BB61CCD72903348100E00721 /* why_sendableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB61CCC02903227A00E00721 /* why_sendableApp.swift */; };
+		BB61CCDA2903348100E00721 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB61CCC72903228000E00721 /* Preview Assets.xcassets */; };
+		BB61CCDB2903348100E00721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB61CCC42903228000E00721 /* Assets.xcassets */; };
+		BB61CCE2290334F400E00721 /* IdeaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB61CCD0290324F700E00721 /* IdeaList.swift */; };
+		BB61CCE3290334F400E00721 /* Votes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB61CCCE2903244100E00721 /* Votes.swift */; };
+		BB61CCE4290334F400E00721 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB61CCC22903227A00E00721 /* ContentView.swift */; };
+		BB61CCE5290334F400E00721 /* why_sendableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB61CCC02903227A00E00721 /* why_sendableApp.swift */; };
+		BB61CCE8290334F400E00721 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB61CCC72903228000E00721 /* Preview Assets.xcassets */; };
+		BB61CCE9290334F400E00721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB61CCC42903228000E00721 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB61CCBD2903227A00E00721 /* why-sendable-minimal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "why-sendable-minimal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB61CCC02903227A00E00721 /* why_sendableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = why_sendableApp.swift; sourceTree = "<group>"; };
+		BB61CCC22903227A00E00721 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB61CCC42903228000E00721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB61CCC72903228000E00721 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB61CCCE2903244100E00721 /* Votes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Votes.swift; sourceTree = "<group>"; };
+		BB61CCD0290324F700E00721 /* IdeaList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaList.swift; sourceTree = "<group>"; };
+		BB61CCDF2903348100E00721 /* why-sendable-targeted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "why-sendable-targeted.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB61CCED290334F400E00721 /* why-sendable-complete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "why-sendable-complete.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB61CCBA2903227900E00721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB61CCD82903348100E00721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB61CCE6290334F400E00721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB61CCB42903227900E00721 = {
+			isa = PBXGroup;
+			children = (
+				BB61CCBF2903227A00E00721 /* why-sendable */,
+				BB61CCBE2903227A00E00721 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB61CCBE2903227A00E00721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB61CCBD2903227A00E00721 /* why-sendable-minimal.app */,
+				BB61CCDF2903348100E00721 /* why-sendable-targeted.app */,
+				BB61CCED290334F400E00721 /* why-sendable-complete.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB61CCBF2903227A00E00721 /* why-sendable */ = {
+			isa = PBXGroup;
+			children = (
+				BB61CCC02903227A00E00721 /* why_sendableApp.swift */,
+				BB61CCC22903227A00E00721 /* ContentView.swift */,
+				BB61CCC42903228000E00721 /* Assets.xcassets */,
+				BB61CCC62903228000E00721 /* Preview Content */,
+				BB61CCCE2903244100E00721 /* Votes.swift */,
+				BB61CCD0290324F700E00721 /* IdeaList.swift */,
+			);
+			path = "why-sendable";
+			sourceTree = "<group>";
+		};
+		BB61CCC62903228000E00721 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB61CCC72903228000E00721 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB61CCBC2903227900E00721 /* why-sendable-minimal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB61CCCB2903228000E00721 /* Build configuration list for PBXNativeTarget "why-sendable-minimal" */;
+			buildPhases = (
+				BB61CCB92903227900E00721 /* Sources */,
+				BB61CCBA2903227900E00721 /* Frameworks */,
+				BB61CCBB2903227900E00721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "why-sendable-minimal";
+			productName = "why-sendable";
+			productReference = BB61CCBD2903227A00E00721 /* why-sendable-minimal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB61CCD22903348100E00721 /* why-sendable-targeted */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB61CCDC2903348100E00721 /* Build configuration list for PBXNativeTarget "why-sendable-targeted" */;
+			buildPhases = (
+				BB61CCD32903348100E00721 /* Sources */,
+				BB61CCD82903348100E00721 /* Frameworks */,
+				BB61CCD92903348100E00721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "why-sendable-targeted";
+			productName = "why-sendable";
+			productReference = BB61CCDF2903348100E00721 /* why-sendable-targeted.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB61CCE0290334F400E00721 /* why-sendable-complete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB61CCEA290334F400E00721 /* Build configuration list for PBXNativeTarget "why-sendable-complete" */;
+			buildPhases = (
+				BB61CCE1290334F400E00721 /* Sources */,
+				BB61CCE6290334F400E00721 /* Frameworks */,
+				BB61CCE7290334F400E00721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "why-sendable-complete";
+			productName = "why-sendable";
+			productReference = BB61CCED290334F400E00721 /* why-sendable-complete.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB61CCB52903227900E00721 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BB61CCBC2903227900E00721 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = BB61CCB82903227900E00721 /* Build configuration list for PBXProject "why-sendable" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB61CCB42903227900E00721;
+			productRefGroup = BB61CCBE2903227A00E00721 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB61CCBC2903227900E00721 /* why-sendable-minimal */,
+				BB61CCD22903348100E00721 /* why-sendable-targeted */,
+				BB61CCE0290334F400E00721 /* why-sendable-complete */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB61CCBB2903227900E00721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB61CCC82903228000E00721 /* Preview Assets.xcassets in Resources */,
+				BB61CCC52903228000E00721 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB61CCD92903348100E00721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB61CCDA2903348100E00721 /* Preview Assets.xcassets in Resources */,
+				BB61CCDB2903348100E00721 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB61CCE7290334F400E00721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB61CCE8290334F400E00721 /* Preview Assets.xcassets in Resources */,
+				BB61CCE9290334F400E00721 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB61CCB92903227900E00721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB61CCD1290324F700E00721 /* IdeaList.swift in Sources */,
+				BB61CCCF2903244100E00721 /* Votes.swift in Sources */,
+				BB61CCC32903227A00E00721 /* ContentView.swift in Sources */,
+				BB61CCC12903227A00E00721 /* why_sendableApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB61CCD32903348100E00721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB61CCD42903348100E00721 /* IdeaList.swift in Sources */,
+				BB61CCD52903348100E00721 /* Votes.swift in Sources */,
+				BB61CCD62903348100E00721 /* ContentView.swift in Sources */,
+				BB61CCD72903348100E00721 /* why_sendableApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB61CCE1290334F400E00721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB61CCE2290334F400E00721 /* IdeaList.swift in Sources */,
+				BB61CCE3290334F400E00721 /* Votes.swift in Sources */,
+				BB61CCE4290334F400E00721 /* ContentView.swift in Sources */,
+				BB61CCE5290334F400E00721 /* why_sendableApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB61CCC92903228000E00721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB61CCCA2903228000E00721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB61CCCC2903228000E00721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"why-sendable/Preview Content\"";
+				DEVELOPMENT_TEAM = A8NKHWJDUL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noiseandheat.test.why-sendable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB61CCCD2903228000E00721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"why-sendable/Preview Content\"";
+				DEVELOPMENT_TEAM = A8NKHWJDUL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noiseandheat.test.why-sendable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB61CCDD2903348100E00721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"why-sendable/Preview Content\"";
+				DEVELOPMENT_TEAM = A8NKHWJDUL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noiseandheat.test.why-sendable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB61CCDE2903348100E00721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"why-sendable/Preview Content\"";
+				DEVELOPMENT_TEAM = A8NKHWJDUL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noiseandheat.test.why-sendable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB61CCEB290334F400E00721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"why-sendable/Preview Content\"";
+				DEVELOPMENT_TEAM = A8NKHWJDUL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noiseandheat.test.why-sendable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB61CCEC290334F400E00721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"why-sendable/Preview Content\"";
+				DEVELOPMENT_TEAM = A8NKHWJDUL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noiseandheat.test.why-sendable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB61CCB82903227900E00721 /* Build configuration list for PBXProject "why-sendable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB61CCC92903228000E00721 /* Debug */,
+				BB61CCCA2903228000E00721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB61CCCB2903228000E00721 /* Build configuration list for PBXNativeTarget "why-sendable-minimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB61CCCC2903228000E00721 /* Debug */,
+				BB61CCCD2903228000E00721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB61CCDC2903348100E00721 /* Build configuration list for PBXNativeTarget "why-sendable-targeted" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB61CCDD2903348100E00721 /* Debug */,
+				BB61CCDE2903348100E00721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB61CCEA290334F400E00721 /* Build configuration list for PBXNativeTarget "why-sendable-complete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB61CCEB290334F400E00721 /* Debug */,
+				BB61CCEC290334F400E00721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB61CCB52903227900E00721 /* Project object */;
+}
